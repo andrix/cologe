@@ -1,0 +1,24 @@
+cologe
+======
+
+A structured log database for appendable data and bulk iterations through columns.
+
+
+Intial version will support
+===========================
+
+types:
+
+ * bool
+ * int
+ * float
+ * charbuf
+ * string
+
+operations:
+ * create a new log db
+ * write to it
+ * read from it 
+   - a whole row
+   - a set of given columns
+ * close it
